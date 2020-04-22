@@ -1,0 +1,57 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  padding-bottom: 5%;
+}
+
+.search-form{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search-button{
+  background: lightcoral;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: white;
+  transition-duration: 0.4s;
+  font-size: 20px;
+}
+
+.search-button:hover {
+  background-color: #a18cd1;
+  color: #FAF8B0;
+  cursor: pointer;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.headtitle{
+  color: #9795f0;
+  text-shadow: black;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5%;
+  margin-top: 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.titleMenu{
+  color: #a18cd1;
+  background: -webkit-linear-gradient(#fad0c4, #ff9a9e);
+  -webkit-background-clip: text;
+}
